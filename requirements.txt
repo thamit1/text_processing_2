@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+atlassian-python-api
+beautifulsoup4
+sumy
+pydantic
