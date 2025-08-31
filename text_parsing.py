@@ -73,12 +73,24 @@ def infer_tenor(issue_date: str, maturity_date: str) -> str:
         return None
 
 def extract_tabular_field(text: str, field_name: str, tranche_count: int) -> List[str]:
-    field_name = normalize_field_name(field_name)
+    field_name_norm = normalize_field_name(field_name)
     lines = text.splitlines()
     for line in lines:
-        if normalize_field_name(line.strip().split("\t")[0]) == field_name:
-            parts = line.strip().split("\t")[1:]
-            return parts[:tranche_count] + [None] * (tranche_count - len(parts))
+        if not line.strip():
+            continue
+        # split on tabs or runs of 2+ spaces (covers pasted tables without real tabs)
+        parts = re.split(r'\t+|\s{2,}', line.strip())
+        if not parts:
+            continue
+        header_norm = normalize_field_name(parts[0])
+        if header_norm == field_name_norm:
+            values = []
+            for p in parts[1:]:
+                # clean common formatting like surrounding asterisks, parentheses, etc.
+                v = re.sub(r'^\*+|\*+$', '', p).strip()
+                v = re.sub(r'\s*\(.*?\)\s*$', '', v).strip()
+                values.append(v if v != "" else None)
+            return values[:tranche_count] + [None] * max(0, tranche_count - len(values))
     return [None] * tranche_count
 
 # 🏦 Extract Expected Ratings block
@@ -120,7 +132,25 @@ def decode_tenor(tenor: str):
 
 # 🧩 Main parser
 def build_tranches(text: str) -> List[Dict[str, any]]:
-    tranche_count = len(re.findall(r"Tranche\s+\d+", text)) or 3
+    # try to detect tranche count from a tabular "Tenor" row first (handles both tabs and spaced columns)
+    detected_count = None
+    for line in text.splitlines():
+        if not line.strip():
+            continue
+        parts = re.split(r'\t+|\s{2,}', line.strip())
+        if parts and normalize_field_name(parts[0]) == normalize_field_name("Tenor") and len(parts) > 1:
+            detected_count = len(parts) - 1
+            break
+
+    if not detected_count:
+        # fallback to counting Tenor lines in the block
+        tenor_block = extract_field_list(text, "Tenor")
+        if tenor_block:
+            detected_count = len(tenor_block)
+        else:
+            detected_count = 1  # safe default to avoid extra empty tranches
+
+    tranche_count = detected_count
 
     raw_fields = [
         "Label", "Tenor", "Format", "Ranking", "Size", "Coupon Type", "Coupon",
