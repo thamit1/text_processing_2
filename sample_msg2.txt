@@ -1,0 +1,98 @@
+
+# sample_text = """
+# Label
+# Senior Secured Notes
+# Subordinated Notes
+# Unsecured Notes
+
+# Tenor
+# 5Y
+# 7Y
+# 10Y
+
+# Format
+# 144A/Reg S
+# 144A/Reg S
+# 144A/Reg S
+
+# ISIN
+# US1234567890 (Reg S)
+# US1234567891 (144A)
+# US1234567892 (Reg S)
+# US1234567893 (144A)
+# US1234567894 (Reg S)
+# US1234567895 (144A)
+
+# CUSIP
+# 123456789 (Reg S)
+# 123456788 (144A)
+# 123456787 (Reg S)
+# 123456786 (144A)
+# 123456785 (Reg S)
+# 123456784 (144A)
+
+# Coupon Type
+# Fixed
+# Floating
+# Fixed
+
+# Coupon
+# 5.25%
+# SOFR + 200bps
+# 6.00%
+
+# SOFR Convention
+# Actual/360
+# Actual/360
+# Actual/360
+
+# IPT
+# 5.00–5.25%
+# 5.75–6.00%
+# 6.25–6.50%
+
+# Benchmark Treasury
+# UST 5Y
+# UST 7Y
+# UST 10Y
+
+# Par Redemption Date
+# 2030-09-01
+# 2032-09-01
+# 2035-09-01
+
+# Maturity
+# 2030-09-01
+# 2032-09-01
+# 2035-09-01
+
+# Issue Date
+# 2025-09-01
+# 2025-09-01
+# 2025-09-01
+
+# Next Interest Payment Date
+# 2026-03-01
+# 2026-06-01
+# 2026-09-01
+
+# Optional Redemption by Holder
+# No
+# Yes
+# No
+
+# Optional Redemption by Issuer
+# Yes
+# Yes
+# Yes
+
+# Use of Proceeds
+# Refinancing
+# Acquisition
+# General Corporate
+
+# Expected Ratings
+# Moody's: Baa2
+# S&P: BBB
+# Fitch: BBB+
+# """

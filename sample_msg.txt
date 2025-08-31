@@ -1,0 +1,70 @@
+$$ New Deal: ABC Holdings PLC (ABC) | $ 4NC3 TLAC, 6NC5 TLAC &
+ 11NC10 TIER 2 $$
+			
+Issuer/Ticker	ABC Holdings plc (“ABC Holdings”) 
+Issuer Ratings*	Moody's: A3 (Stable)
+S&P: A- (Stable)
+Fitch: A+ (Stable)
+Tenor	4NC3	6NC5	11NC10
+Expected Issue Ratings*	Moody's (Exp): A3
+S&P (Exp): A-
+Fitch (Exp): A+	Moody's (Exp): A3
+S&P (Exp): A-
+Fitch (Exp): A+	Moody's (Exp): Baa1
+S&P (Exp): BBB
+Fitch (Exp): A-
+Format	SEC Registered	SEC Registered	SEC Registered
+Ranking 	Senior Unsecured	Senior Unsecured	Subordinated Unsecure
+d
+Size	USD Benchmark	USD Benchmark	USD Benchmark
+Coupon Type	Fixed-to-Float	Fixed-to-Float	Fixed-to-Float
+Coupon	Fixed rate semi-annual 30/360 until November 3, 2025, the
+n quarterly ACT/360 SOFR + [●] bps until maturity	Fixed rate sem
+i-annual 30/360 until November 3, 2027, then quarterly ACT/360 S
+OFR + [●] bps until maturity	Fixed rate semi-annual 30/360 until
+ November 3, 2032, then quarterly ACT/360 SOFR + [●] bps until m
+aturity
+SOFR Convention	SOFR, compounded daily in arrears & paid quarter
+ly (5-day observation shift, no lockout or payment delay)	SOFR, 
+compounded daily in arrears & paid quarterly (5-day observation 
+shift, no lockout or payment delay)	SOFR, compounded daily in ar
+rears & paid quarterly (5-day observation shift, no lockout or p
+ayment delay)
+IPTs	T+315bps area	T+340bps area	T+430bps area
+Benchmark Treasury	T 4 1/4 10/15/25 	T 4 1/8 09/30/27 	T 2 3/4 0
+8/15/32 
+ISIN 	US404280DQ93	US404280DR76	US404280DS59
+CUSIP	404280DQ9	404280DR7	404280DS5
+Par Redemption Date	November 3, 2025	November 3, 2027	November 3
+, 2032
+Maturity Date	November 3, 2026	November 3, 2028	November 3, 2033
+Next Interest Payment Date	May 3, 2023	May 3, 2023	May 3, 2023
+Optional Redemption by Holder	None	None	None
+Optional Redemption by Issuer	- Optional Redemption Dates (1 yea
+r par call prior to maturity)
+- Certain tax events (any time)
+- Loss Absorption Disqualification Event
+- Make Whole Call 6 month from issue date to 1 year prior to mat
+urity	- Optional Redemption Dates (1 year par call prior to matu
+rity)
+- Certain tax events (any time)
+- Loss Absorption Disqualification Event
+- Make Whole Call 6 month from issue date to 1 year prior to mat
+urity	- Optional Redemption Dates (1 year par call prior to matu
+rity)
+- Certain tax events (any time)
+- Capital Disqualification Event
+Settlement	November 3, 2022 (T+6) (the "Issue Date")
+Bookrunner	Active: ABC (B&D)
+Listing	Application will be made to list the Notes on the NYSE i
+n accordance with its rules
+Governing Law	New York
+Use of Proceeds	General Corporate Purposes	General Corporate Pur
+poses	General Corporate Purposes and strengthen capital base pur
+suant to UK CRR 
+Risk Factors	Investors should read the Risk Factors in the Preli
+minary Prospectus Supplements
+Denominations	USD 200,000 x 1,000
+Timing	Today's Business – Pricing in NY hours
+Sale into Canada	Yes – Exemption
+Preliminary Prospectus Supplements	See attached
