@@ -223,9 +223,9 @@ def build_tranches(text: str) -> List[Dict[str, any]]:
 
     return tranches
 
-sample_text = """
+SAMPLE_TEXT_FALLBACK = """
 $$ New Deal: Republic of Xanadu (Republic) | $ 5Y & 10Y Senior Unsecured $$
-			
+            
 Issuer/Ticker	Republic of Xanadu (“Republic”)
 Issuer Ratings*	Moody's: Baa1 (Stable)
 S&P: BBB (Stable)
@@ -253,12 +253,19 @@ Use of Proceeds	Budgetary Financing
 Risk Factors	See Preliminary Prospectus Supplement
 Denominations	USD 200,000 x 1,000
 Timing	Today's Business – Pricing in NY hours
-
 """
 
-# Call the parser
-tranches = build_tranches(sample_text)
+def load_sample_text(path: str = "sample_text.txt") -> str:
+    # try reading from given path first; fall back to embedded sample if not found
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return f.read()
+    except FileNotFoundError:
+        return SAMPLE_TEXT_FALLBACK
 
-# Print the output
-import pprint
-pprint.pprint(tranches)
+if __name__ == "__main__":
+    # adjust this path to wherever your file is, or leave as "sample_text.txt" in the same folder
+    path = r"sample_msg.txt1"
+    text = load_sample_text(path)
+    tranches = build_tranches(text)
+    pprint.pprint(tranches)
