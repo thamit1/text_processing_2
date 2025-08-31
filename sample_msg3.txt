@@ -1,0 +1,31 @@
+$$ New Deal: Secure Financial Corp (SFC) | $ 3Y Fixed Covered & 5Y Floating Covered $$
+			
+Issuer/Ticker	Secure Financial Corp (“SFC”)
+Issuer Ratings*	Moody's: A1 (Stable)
+S&P: A+ (Stable)
+Fitch: A (Stable)
+Tenor	3Y Fixed	5Y Floating
+Expected Issue Ratings*	Moody's (Exp): Aaa (Covered)
+S&P (Exp): AAA (Covered)
+Fitch (Exp): AAA (Covered)	Moody's (Exp): Aaa (Covered)
+S&P (Exp): AAA (Covered)
+Fitch (Exp): AAA (Covered)
+Format	Reg S / 144A	Reg S / 144A
+Ranking 	Senior Secured (Covered)	Senior Secured (Covered)
+Size	USD Benchmark	USD Benchmark
+Coupon Type	Fixed Rate	Floating Rate
+Coupon	Fixed rate annual until maturity	Quarterly ACT/360 SOFR + [●] bps until maturity
+IPTs	T+[75bps] area	SOFR+[90bps] area
+Benchmark Treasury	T 4 7/8 07/31/28	N/A
+SOFR Convention	N/A	SOFR, compounded daily in arrears & paid quarterly
+ISIN 	**XS0123456789**	**XS9876543210**
+CUSIP	**92314F2B4**	**92314F2C2**
+Maturity Date	**September 1, 2028**	**September 1, 2030**
+Settlement	**September 4, 2025** (T+5)
+Bookrunner	Active: [Syndicate Bank 1], [Syndicate Bank 2]
+Listing	Luxembourg Stock Exchange
+Governing Law	New York
+Use of Proceeds	General corporate purposes
+Risk Factors	See Preliminary Offering Circular
+Denominations	USD 200,000 x 1,000
+Timing	Today's Business – Pricing in NY hours

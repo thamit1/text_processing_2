@@ -1,0 +1,29 @@
+$$ New Deal: Tech Innovations Inc (TII) | $ 7Y & 10Y Senior Secured $$
+			
+Issuer/Ticker	Tech Innovations Inc (“TII”)
+Issuer Ratings*	Moody's: Ba3 (Stable)
+S&P: BB- (Stable)
+Fitch: BB (Stable)
+Tenor	7Y	10Y
+Expected Issue Ratings*	Moody's (Exp): Ba3
+S&P (Exp): BB-
+Fitch (Exp): BB	Moody's (Exp): Ba3
+S&P (Exp): BB-
+Fitch (Exp): BB
+Format	Reg S / 144A	Reg S / 144A
+Ranking 	Senior Secured	Senior Secured
+Size	USD Benchmark	USD Benchmark
+Coupon Type	Fixed Rate	Fixed Rate
+IPTs	T+[450bps] area	T+[500bps] area
+Benchmark Treasury	T 4 1/2 09/30/30	T 4 3/8 08/15/34
+ISIN 	**US98765QWERTY**	**US98765ASDFGH**
+CUSIP	**12398D456**	**12398E456**
+Maturity Date	**October 1, 2032**	**October 1, 2035**
+Settlement	**September 3, 2025** (T+3)
+Bookrunner	Active: [High Yield Specialist 1], [High Yield Specialist 2]
+Listing	Application will be made to list the Notes on the NYSE
+Governing Law	New York
+Use of Proceeds	Refinance existing debt and general corporate purposes
+Risk Factors	See Preliminary Offering Memorandum
+Denominations	USD 2,000 x 1,000
+Timing	Today's Business – Pricing in NY hours

@@ -1,98 +1,29 @@
-
-# sample_text = """
-# Label
-# Senior Secured Notes
-# Subordinated Notes
-# Unsecured Notes
-
-# Tenor
-# 5Y
-# 7Y
-# 10Y
-
-# Format
-# 144A/Reg S
-# 144A/Reg S
-# 144A/Reg S
-
-# ISIN
-# US1234567890 (Reg S)
-# US1234567891 (144A)
-# US1234567892 (Reg S)
-# US1234567893 (144A)
-# US1234567894 (Reg S)
-# US1234567895 (144A)
-
-# CUSIP
-# 123456789 (Reg S)
-# 123456788 (144A)
-# 123456787 (Reg S)
-# 123456786 (144A)
-# 123456785 (Reg S)
-# 123456784 (144A)
-
-# Coupon Type
-# Fixed
-# Floating
-# Fixed
-
-# Coupon
-# 5.25%
-# SOFR + 200bps
-# 6.00%
-
-# SOFR Convention
-# Actual/360
-# Actual/360
-# Actual/360
-
-# IPT
-# 5.00–5.25%
-# 5.75–6.00%
-# 6.25–6.50%
-
-# Benchmark Treasury
-# UST 5Y
-# UST 7Y
-# UST 10Y
-
-# Par Redemption Date
-# 2030-09-01
-# 2032-09-01
-# 2035-09-01
-
-# Maturity
-# 2030-09-01
-# 2032-09-01
-# 2035-09-01
-
-# Issue Date
-# 2025-09-01
-# 2025-09-01
-# 2025-09-01
-
-# Next Interest Payment Date
-# 2026-03-01
-# 2026-06-01
-# 2026-09-01
-
-# Optional Redemption by Holder
-# No
-# Yes
-# No
-
-# Optional Redemption by Issuer
-# Yes
-# Yes
-# Yes
-
-# Use of Proceeds
-# Refinancing
-# Acquisition
-# General Corporate
-
-# Expected Ratings
-# Moody's: Baa2
-# S&P: BBB
-# Fitch: BBB+
-# """
+$$ New Deal: EM Holdings Ltd (EMH) | $ 5Y & 7Y Senior Unsecured $$
+			
+Issuer/Ticker	EM Holdings Ltd (“EMH”)
+Issuer Ratings*	Moody's: B1 (Stable)
+S&P: B+ (Stable)
+Fitch: B (Stable)
+Tenor	5Y	7Y
+Expected Issue Ratings*	Moody's (Exp): B1
+S&P (Exp): B+
+Fitch (Exp): B	Moody's (Exp): B1
+S&P (Exp): B+
+Fitch (Exp): B
+Format	Reg S / 144A	Reg S / 144A
+Ranking 	Senior Unsecured	Senior Unsecured
+Size	USD Benchmark	USD Benchmark
+Coupon Type	Fixed Rate	Fixed Rate
+IPTs	T+[475bps] area	T+[550bps] area
+Benchmark Treasury	T 4 1/2 09/30/30	T 4 3/8 08/15/34
+ISIN 	**AR34597UIP82**	**AR34597UIP90**
+CUSIP	**34567Z9V2**	**34567Z9W0**
+Maturity Date	**October 1, 2030**	**October 1, 2032**
+Settlement	**September 3, 2025** (T+3)
+Bookrunner	Active: [EM Specialist 1], [EM Specialist 2]
+Listing	Irish Stock Exchange
+Governing Law	New York
+Use of Proceeds	Capital expenditures and general corporate purposes
+Risk Factors	See Preliminary Offering Memorandum
+Denominations	USD 200,000 x 1,000
+Timing	Today's Business – Pricing in NY hours

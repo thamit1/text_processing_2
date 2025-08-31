@@ -268,4 +268,23 @@ if __name__ == "__main__":
     path = r"sample_msg.txt1"
     text = load_sample_text(path)
     tranches = build_tranches(text)
+    print("Tranches from sample_msg.txt1:")
+    pprint.pprint(tranches)
+
+    path = r"sample_msg1.txt1"
+    text = load_sample_text(path)
+    tranches = build_tranches(text)
+    print("Tranches from sample_msg1.txt1:")
+    pprint.pprint(tranches)
+
+    path = r"sample_msg2.txt1"
+    text = load_sample_text(path)
+    tranches = build_tranches(text)
+    print("Tranches from sample_msg2.txt1:")
+    pprint.pprint(tranches)
+
+    path = r"sample_msg3.txt1"
+    text = load_sample_text(path)
+    tranches = build_tranches(text)
+    print("Tranches from sample_msg3.txt1:")
     pprint.pprint(tranches)
